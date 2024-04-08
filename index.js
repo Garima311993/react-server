@@ -25,7 +25,7 @@ const app = express();
 app.use(
     cors(
         {
-            origin: '*' ,
+            origin: 'https://react-server-chi.vercel.app' ,
     allowedHeaders: 'Origin,X-Requested-With,Content-Type,Accept',
         }
     )
